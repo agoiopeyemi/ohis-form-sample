@@ -1,0 +1,163 @@
+.formContent {
+  padding-top: 25px;
+  padding-left: 70px; }
+  @media (max-width: 400px) {
+    .formContent {
+      padding: 45px; } }
+
+.containerLogo {
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 50px; }
+  .containerLogo .logoTitle {
+    font-size: 12px;
+    color: #253031;
+    line-height: 22px;
+    font-weight: bold;
+    margin-left: 10px; }
+  @media (max-width: 400px) {
+    .containerLogo {
+      justify-content: center; } }
+
+.formMainContent .contentHeader {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; }
+.formMainContent .heading {
+  font-size: 36px;
+  color: #253031;
+  font-weight: bold;
+  line-height: 48px;
+  font-family: 'Playfair Display' sans-serif; }
+  @media (max-width: 400px) {
+    .formMainContent .heading {
+      font-size: 24px; } }
+.formMainContent .subtitle {
+  width: 40%;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: center; }
+  @media (max-width: 400px) {
+    .formMainContent .subtitle {
+      width: 95%; } }
+
+.form {
+  width: 55%;
+  margin: 0 auto; }
+  @media (max-width: 400px) {
+    .form {
+      width: 95%; } }
+  .form .formGroup {
+    display: flex;
+    justify-content: space-between; }
+    @media (max-width: 400px) {
+      .form .formGroup {
+        flex-direction: column; } }
+  .form .formControl {
+    width: 46%; }
+    @media (max-width: 400px) {
+      .form .formControl {
+        width: 92%;
+        margin-bottom: 15px; } }
+    .form .formControl .label {
+      font-size: 16px;
+      color: #80898A;
+      margin: 10px 0;
+      line-height: 19px; }
+
+.containerProgressBar {
+  margin: 30px 0; }
+  @media (max-width: 400px) {
+    .containerProgressBar {
+      margin: 10px 0 30px; } }
+  .containerProgressBar .progressBar {
+    height: 3px;
+    border-radius: 20px;
+    position: relative;
+    background: #EBEBEB;
+    border: 1px solid #EBEBEB; }
+  .containerProgressBar .progressBarSecond {
+    height: 3px;
+    border-radius: 20px;
+    top: 258px;
+    width: 15%;
+    position: absolute;
+    background: #0099FF;
+    border: 1px solid #0099FF; }
+    @media (max-width: 400px) {
+      .containerProgressBar .progressBarSecond {
+        top: 318px; } }
+
+.formInput {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background: #EBEBEB;
+  border: 1px solid #EBEBEB; }
+
+.footer {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+  justify-content: space-between; }
+  @media (max-width: 400px) {
+    .footer {
+      flex-direction: column; } }
+  .footer .link {
+    font-size: 12px;
+    color: #0099FF;
+    font-weight: bold;
+    line-height: 22px; }
+    @media (max-width: 400px) {
+      .footer .link {
+        order: 1;
+        width: 80%;
+        text-align: center; } }
+
+.containerBtn {
+  display: flex;
+  align-items: center; }
+  @media (max-width: 400px) {
+    .containerBtn {
+      flex-direction: column;
+      order: 0;
+      margin-bottom: 40px; } }
+  .containerBtn .button {
+    width: 100%;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #80898A;
+    border: none;
+    background: #fff; }
+    @media (max-width: 400px) {
+      .containerBtn .button {
+        width: 100%; } }
+    @media (max-width: 400px) {
+      .containerBtn .button {
+        order: 1; } }
+  .containerBtn .buttonSecond {
+    width: 100%;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #fff;
+    background: #0099FF;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 1px solid #0099FF; }
+    @media (max-width: 400px) {
+      .containerBtn .buttonSecond {
+        width: 100%; } }
+    @media (max-width: 400px) {
+      .containerBtn .buttonSecond {
+        order: 0; } }
+
+/*# sourceMappingURL=sample.css.map */
